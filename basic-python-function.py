@@ -6,7 +6,7 @@ from snowflake.snowpark.functions import col
 
 def main(session: snowpark.Session, num: int): 
 
-    x = num * 2
+    x = num * 3
 
     # Return value will appear in the Results tab.
     return x
